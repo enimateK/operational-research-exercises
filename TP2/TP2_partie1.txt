@@ -1,0 +1,13 @@
+- Quel type de problème est considéré dans le fichier scp.mod ? 
+
+Le type de problème est un problème à variables binaires.
+
+
+- Tester la capacité de GLPK à résoudre les instances de ce problème. 
+
+scpe5.dat est résolu, mais scpclr13.dat n'est pas résolu, il fait planter le logiciel car il est trop volumineux.
+
+
+- Que conclure ?
+
+Tous les problèmes ne peuvent être résolus grace à GNU mathprog, si les données sont trop volumineuses, le programme se met en erreur.
